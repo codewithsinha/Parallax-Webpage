@@ -1,0 +1,124 @@
+html , body{
+   height: 100px;
+    margin: 0;
+    font-size: 18px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #474040;
+}
+
+.pimg1{
+    background-image: url("images/pimg1.jpeg");
+    min-height: 600px;
+    
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pimg2{
+    background-image: url("images/pimg2.jpg");
+    min-height: 300px;
+}
+
+.pimg3{
+    background-image: url("images/pimg3.avif");
+    min-height: 500px;
+
+   
+}
+
+.pimg1,
+.pimg2,
+.pimg3
+{
+position:relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 8px;
+    word-spacing: 5px;
+    font-weight: 500px;
+    color: rgb(206, 206, 215);
+    text-transform: uppercase;
+}
+
+.textbg{
+    background-color: rgb(25, 15, 15);
+    color: rgb(179, 153, 114);
+    padding: 20px;
+}
+
+.textbg1{
+    background-color:  rgb(209, 107, 107);
+    color: rgba(0, 0, 0, 0.884);
+    padding: 20px;
+}
+
+.textbg2{
+    background-color: rgb(25, 15, 15);
+    color: rgb(220, 216, 90);  
+    padding: 20px;
+}
+
+
+
+.section{
+    padding: 50px 80px;
+    text-align: justify;
+    text-align: center;
+}
+.section-light{
+    background-color: rgb(188, 190, 116);
+    color:rgb(25, 15, 15);
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: justify;
+    text-align: center;
+}
+
+.section-light{
+    background-color: rgb(25, 15, 15);
+    color : rgb(179, 153, 114);
+}
+
+.section-new{
+    background-color: rgb(174, 209, 87);
+    color : rgb(3, 10, 108);
+}
+
+.section-another{
+    background-color: rgb(25, 15, 15);
+    color : rgb(220, 216, 90);
+}
+
+.benefits{
+    text-align: center;
+    text-align: justify;
+}
+
+.section-dark{
+    background-color:rgb(152, 132, 102); 
+    color : rgb(25, 15, 15);
+}
+
+.footer{
+    text-align: end;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+   
+    
+}
